@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <div class="box-1">
+    <div class="box">
       <h1 class="title">BROWNIE SUPER FÁCIL</h1>
       <h2 class="sub-title">A receita perfeita para sua festa de família</h2>
       <svg
@@ -63,8 +63,8 @@
               fill="#FF6A28"
             />
           </svg>
-          <span class="info-text">PREPARO</span>
-          <strong class="info-strong-text">40 MIN</strong>
+          <span class="info-text">preparo</span>
+          <strong class="info-strong-text">40 min</strong>
         </div>
         <div class="info-box">
           <svg
@@ -82,8 +82,8 @@
             />
           </svg>
 
-          <span class="info-text-2">RENDIMENTO</span>
-          <strong class="info-strong-text">8 PORÇÕES</strong>
+          <span class="info-text">rendimento</span>
+          <strong class="info-strong-text">8 porções</strong>
         </div>
         <div class="info-box">
           <svg
@@ -100,7 +100,7 @@
             />
           </svg>
 
-          <span class="info-text-3">FAVORITOS</span>
+          <span class="info-text">favoritos</span>
           <strong class="info-strong-text">95.577</strong>
         </div>
         <div class="info-box">
@@ -118,11 +118,11 @@
             />
           </svg>
 
-          <span class="info-text-4">COMENTARIOS</span>
+          <span class="info-text">comentarios</span>
           <strong class="info-strong-text">842</strong>
         </div>
         <div class="info-member-box">
-          <img class="member-img" src="membro.png" alt="">
+          <img class="member-img" src="assets/membro.png" alt="" />
           <div class="member-box">
             <span class="name">Ana Flávia Silva</span>
             <strong class="since">membro desde 2002</strong>
@@ -130,34 +130,49 @@
         </div>
       </div>
     </div>
-    <div class="box-2">
-      <svg
-        class="img-apron"
-        width="22"
-        height="25"
-        viewBox="0 0 22 25"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7.76613 18.4C7.76613 18.576 7.80027 18.7503 7.86661 18.9129C7.93294 19.0754 8.03016 19.2231 8.15269 19.3474C8.27522 19.4717 8.42066 19.5701 8.58067 19.6371C8.74068 19.7041 8.91211 19.7384 9.08515 19.7379H12.9168C13.2659 19.7379 13.6008 19.597 13.8481 19.3463C14.0954 19.0955 14.2348 18.7552 14.2358 18.4V13.47H7.77373L7.76613 18.4ZM12.9168 18.9916H9.08515C8.93055 18.9916 8.78223 18.9294 8.67256 18.8186C8.56288 18.7077 8.50077 18.5573 8.49976 18.4V16.2269H13.5173V18.4C13.5169 18.4792 13.5009 18.5575 13.4703 18.6303C13.4397 18.7031 13.3951 18.769 13.3392 18.8241C13.2833 18.8792 13.2171 18.9224 13.1446 18.9511C13.072 18.9799 12.9946 18.9937 12.9168 18.9916ZM13.5173 14.2008V15.4768H8.49976V14.2008H13.5173Z"
-          fill="#FF6A28"
-        />
-        <path
-          d="M17.7899 11.0727H17.2121C16.5235 11.0727 15.8632 10.7944 15.3763 10.2992C14.8894 9.80388 14.6159 9.13215 14.6159 8.43173V5.988H13.6884V3.73373C13.6884 3.0087 13.4053 2.31337 12.9013 1.80069C12.3973 1.28802 11.7137 1 11.0009 1C10.2878 0.999999 9.60389 1.28789 9.09929 1.80046C8.5947 2.31302 8.31071 3.00835 8.3097 3.73373V5.988H7.38601V8.43173C7.38551 8.77971 7.31752 9.12416 7.18592 9.44535C7.05432 9.76655 6.8617 10.0582 6.61911 10.3035C6.37652 10.5488 6.08872 10.7431 5.7722 10.8751C5.45568 11.007 5.11667 11.0742 4.77459 11.0727H4.20821C3.36098 11.0747 2.54903 11.418 1.94994 12.0274C1.35086 12.6368 1.01341 13.4627 1.0114 14.3245V17.6344C0.997356 17.6914 0.996272 17.7509 1.00823 17.8084C1.0202 17.866 1.04489 17.9199 1.08044 17.9663C1.11599 18.0126 1.16145 18.0501 1.21338 18.0759C1.26531 18.1017 1.32233 18.1151 1.38012 18.1151C1.4379 18.1151 1.49493 18.1017 1.54686 18.0759C1.59879 18.0501 1.64425 18.0126 1.6798 17.9663C1.71535 17.9199 1.74004 17.866 1.752 17.8084C1.76397 17.7509 1.76288 17.6914 1.74884 17.6344V14.3245C1.74884 13.661 2.00795 13.0247 2.46917 12.5555C2.93039 12.0864 3.55594 11.8228 4.20821 11.8228H4.32985V22.7616C4.33085 23.1428 4.48015 23.508 4.74512 23.7776C5.01009 24.0471 5.36917 24.199 5.74389 24.2H16.2542C16.6289 24.199 16.988 24.0471 17.253 23.7776C17.5179 23.508 17.6672 23.1428 17.6682 22.7616V11.8228H17.7899C18.4425 11.8228 19.0684 12.0863 19.5303 12.5553C19.9921 13.0244 20.2521 13.6607 20.2531 14.3245V17.6344C20.2377 17.6917 20.2356 17.7519 20.2469 17.8102C20.2581 17.8685 20.2824 17.9234 20.3179 17.9706C20.3534 18.0179 20.3991 18.0561 20.4515 18.0824C20.5038 18.1088 20.5615 18.1225 20.6199 18.1225C20.6783 18.1225 20.7359 18.1088 20.7883 18.0824C20.8407 18.0561 20.8864 18.0179 20.9219 17.9706C20.9573 17.9234 20.9816 17.8685 20.9929 17.8102C21.0041 17.7519 21.002 17.6917 20.9867 17.6344V14.3245C20.9857 13.4624 20.6486 12.6359 20.0493 12.0262C19.45 11.4166 18.6374 11.0737 17.7899 11.0727ZM9.04713 3.726C9.04713 3.19889 9.25298 2.69337 9.61939 2.32065C9.98581 1.94793 10.4828 1.73853 11.0009 1.73853C11.5191 1.73853 12.0161 1.94793 12.3825 2.32065C12.7489 2.69337 12.9548 3.19889 12.9548 3.726V5.98027H9.04713V3.726ZM16.2694 23.446H5.74389C5.56445 23.446 5.39235 23.3735 5.26546 23.2444C5.13857 23.1153 5.06728 22.9403 5.06728 22.7577V11.8073C5.89713 11.7329 6.66953 11.3452 7.23235 10.7204C7.79518 10.0956 8.10766 9.27915 8.10824 8.43173V6.73427H13.8975V8.43173C13.898 9.27915 14.2105 10.0956 14.7733 10.7204C15.3362 11.3452 16.1086 11.7329 16.9384 11.8073V22.7616C16.9384 22.8526 16.9207 22.9428 16.8862 23.0268C16.8517 23.1108 16.8012 23.187 16.7376 23.251C16.6739 23.315 16.5984 23.3656 16.5155 23.3997C16.4325 23.4338 16.3437 23.4509 16.2542 23.4499L16.2694 23.446Z"
-          fill="#FF6A28"
-        />
-        <path
-          d="M7.76613 18.4C7.76613 18.576 7.80027 18.7503 7.86661 18.9129C7.93294 19.0754 8.03016 19.2231 8.15269 19.3474C8.27522 19.4717 8.42066 19.5701 8.58067 19.6371C8.74068 19.7041 8.91211 19.7384 9.08515 19.7379H12.9168C13.2659 19.7379 13.6008 19.597 13.8481 19.3463C14.0954 19.0955 14.2348 18.7552 14.2358 18.4V13.47H7.77373L7.76613 18.4ZM12.9168 18.9916H9.08515C8.93055 18.9916 8.78223 18.9294 8.67256 18.8186C8.56288 18.7077 8.50077 18.5573 8.49976 18.4V16.2269H13.5173V18.4C13.5169 18.4792 13.5009 18.5575 13.4703 18.6303C13.4397 18.7031 13.3951 18.769 13.3392 18.8241C13.2833 18.8792 13.2171 18.9224 13.1446 18.9511C13.072 18.9799 12.9946 18.9937 12.9168 18.9916ZM13.5173 14.2008V15.4768H8.49976V14.2008H13.5173Z"
-          stroke="#FF6A28"
-          stroke-width="0.5"
-        />
-        <path
-          d="M17.7899 11.0727H17.2121C16.5235 11.0727 15.8632 10.7944 15.3763 10.2992C14.8894 9.80388 14.6159 9.13215 14.6159 8.43173V5.988H13.6884V3.73373C13.6884 3.0087 13.4053 2.31337 12.9013 1.80069C12.3973 1.28802 11.7137 1 11.0009 1C10.2878 0.999999 9.60389 1.28789 9.09929 1.80046C8.5947 2.31302 8.31071 3.00835 8.3097 3.73373V5.988H7.38601V8.43173C7.38551 8.77971 7.31752 9.12416 7.18592 9.44535C7.05432 9.76655 6.8617 10.0582 6.61911 10.3035C6.37652 10.5488 6.08872 10.7431 5.7722 10.8751C5.45568 11.007 5.11667 11.0742 4.77459 11.0727H4.20821C3.36098 11.0747 2.54903 11.418 1.94994 12.0274C1.35086 12.6368 1.01341 13.4627 1.0114 14.3245V17.6344C0.997356 17.6914 0.996272 17.7509 1.00823 17.8084C1.0202 17.866 1.04489 17.9199 1.08044 17.9663C1.11599 18.0126 1.16145 18.0501 1.21338 18.0759C1.26531 18.1017 1.32233 18.1151 1.38012 18.1151C1.4379 18.1151 1.49493 18.1017 1.54686 18.0759C1.59879 18.0501 1.64425 18.0126 1.6798 17.9663C1.71535 17.9199 1.74004 17.866 1.752 17.8084C1.76397 17.7509 1.76288 17.6914 1.74884 17.6344V14.3245C1.74884 13.661 2.00795 13.0247 2.46917 12.5555C2.93039 12.0864 3.55594 11.8228 4.20821 11.8228H4.32985V22.7616C4.33085 23.1428 4.48015 23.508 4.74512 23.7776C5.01009 24.0471 5.36917 24.199 5.74389 24.2H16.2542C16.6289 24.199 16.988 24.0471 17.253 23.7776C17.5179 23.508 17.6672 23.1428 17.6682 22.7616V11.8228H17.7899C18.4425 11.8228 19.0684 12.0863 19.5303 12.5553C19.9921 13.0244 20.2521 13.6607 20.2531 14.3245V17.6344C20.2377 17.6917 20.2356 17.7519 20.2469 17.8102C20.2581 17.8685 20.2824 17.9234 20.3179 17.9706C20.3534 18.0179 20.3991 18.0561 20.4515 18.0824C20.5038 18.1088 20.5615 18.1225 20.6199 18.1225C20.6783 18.1225 20.7359 18.1088 20.7883 18.0824C20.8407 18.0561 20.8864 18.0179 20.9219 17.9706C20.9573 17.9234 20.9816 17.8685 20.9929 17.8102C21.0041 17.7519 21.002 17.6917 20.9867 17.6344V14.3245C20.9857 13.4624 20.6486 12.6359 20.0493 12.0262C19.45 11.4166 18.6374 11.0737 17.7899 11.0727ZM9.04713 3.726C9.04713 3.19889 9.25298 2.69337 9.61939 2.32065C9.98581 1.94793 10.4828 1.73853 11.0009 1.73853C11.5191 1.73853 12.0161 1.94793 12.3825 2.32065C12.7489 2.69337 12.9548 3.19889 12.9548 3.726V5.98027H9.04713V3.726ZM16.2694 23.446H5.74389C5.56445 23.446 5.39235 23.3735 5.26546 23.2444C5.13857 23.1153 5.06728 22.9403 5.06728 22.7577V11.8073C5.89713 11.7329 6.66953 11.3452 7.23235 10.7204C7.79518 10.0956 8.10766 9.27915 8.10824 8.43173V6.73427H13.8975V8.43173C13.898 9.27915 14.2105 10.0956 14.7733 10.7204C15.3362 11.3452 16.1086 11.7329 16.9384 11.8073V22.7616C16.9384 22.8526 16.9207 22.9428 16.8862 23.0268C16.8517 23.1108 16.8012 23.187 16.7376 23.251C16.6739 23.315 16.5984 23.3656 16.5155 23.3997C16.4325 23.4338 16.3437 23.4509 16.2542 23.4499L16.2694 23.446Z"
-          stroke="#FF6A28"
-          stroke-width="0.5"
-        />
-      </svg>
+    <div class="box ingredients-box">
+      <div class="title-wrapper"><img class="icon" src="assets/Avental.png"/><h3 class="title icon-title">Ingredientes</h3></div>
+      <ul class="list">
+        <li class="list-item">6 colheres (sopa) bem cheias, de margarina sem sal</li>
+        <li class="list-item">3/4 xícara (chá) achocolatado</li>
+        <li class="list-item">1/2 xícara (chá) chocolate em pó</li>
+        <li class="list-item">1 e 1/4 xícara (chá) farinha de trigo</li>
+        <li class="list-item">2 xícaras (chá) açúcar</li>
+        <li class="list-item">4 ovos</li>
+        <li class="list-item">2 pitadas de sal</li>
+        <li class="list-item">1 colheres (chá) de extrato ou essência de baunilha</li>
+        <li class="list-item">1 tablete de chocolate meio amargo picado em cubinhos</li>
+        <li class="list-item">1/2 xícara (chá) de nozes picadas ou castanhas de caju granuladas</li>
+      </ul>
+    </div>
+    <div class="box preparation-box">
+      <div class="title-wrapper"><img class="icon" src="assets/Panela.png"/><h3 class="title icon-title">Ingredientes</h3></div>
+      <ol class="list">
+        <li class="list-item preparation-item">Misture os ovos e o açúcar.</li>
+        <li class="list-item preparation-item">Em seguida, agregue todos os outros ingredientes até formar um creme uniforme.</li>
+        <li class="list-item preparation-item">Misture os ovos e o açúcar</li>
+        <li class="list-item preparation-item">Em seguida, agregue todos os outros ingredientes até formar um creme uniforme</li>
+        <li class="list-item preparation-item">Em seguida, agregue todos os outros ingredientes até formar um creme uniforme.</li>
+        <li class="list-item preparation-item">Despeje em uma assadeira, forrada com papel-manteiga e leve ao forno médio por 40 minutos.</li>
+        <li class="list-item preparation-item">O brownie estará pronto quando a parte de cima estiver levemente corada e, ao se espetar um palito, ele esteja
+          levemente úmido (devido ao chocolate derretido).</li>
+        <li class="list-item preparation-item">Corte em quadrados ainda quente e sirva com uma bola de sorvete de creme, ou congele num saquinho para freezer.</li>
+        <li class="list-item preparation-item">Para descongelar, coloque o brownie num prato de sobremesa e aqueça no micro-ondas, potência alta, por 1 minuto.</li>
+      </ol>
+    </div>
+    <div class="box add-info-box">
+      <h3 class="secundary-title">Informações adicionais</h3>
+      <div class="add-info-text">
+        <p>O tradicional brownie de chocolate é uma preferência nacional, mas existem variações desse doce para agradar a todo mundo, desde o brownie de nescau até o brownie fit que leva cacau, o brownie low carb e o brownie vegano. Outra coisa que pode variar é a forma de fazer: geralmente é no forno, mas quer um brownie fácil que fica pronto em minutos? O brownie de caneca no microondas vai resolver a sua vida.</p>
+        <p>Confira a seguir algumas dicas para que seu brownie fique perfeito:</p>
+        <p>1) As pitadas de sal servem para realçar o sabor do chocolate: não deixe de usá-las!</p>
+        <p>2) Misture a farinha delicadamente para que a massa não fique pesada.</p>
+        <p>3) Usar forma de metal faz com que o brownie fique pronto mais rapidamente: se utilizá-la, fique de olho no tempo de forno.</p>
+        <p>Procurando mais receitas doces incríveis? Experimente as nossas receitas de brigadeirão, bolo de fubá cremoso, pavê de chocolate simples, bolo de cenoura, pudim de leite condensado, brigadeiro, cookie americano perfeito e a melhor receita de bolo de chocolate!</p>
+        <p>Se você adora receitas doces, confira nossas listas com pratos deliciosos:</p>
+        <p>Receitas com leite de coco: confira opções doces e salgadas</p>
+        <p>20 receitas com leite em pó: deliciosas e práticas</p>
+      </div>
     </div>
   </body>
 </html>
